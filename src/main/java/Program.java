@@ -1,4 +1,3 @@
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Program {
@@ -8,6 +7,6 @@ public class Program {
         int weight = in.nextInt();
         System.out.println("Geef uw lengte op (in cm)");
         int height = in.nextInt();
-        System.out.println("Uw quetelet-index is " + weight / height * height);
+        System.out.println("Uw BMI is " + weight / height * height);
     }
 }
